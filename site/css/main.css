@@ -1,0 +1,385 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #292929;
+	font: normal 0.84em Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+
+#page
+{
+	margin-bottom: 5px;
+	/* background: white; */
+	/* border: 1px solid #C9E0ED; */
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+}
+
+#MAT_logo
+{
+        width: 100%;
+        /* margin-top: 1em; */
+}
+
+#MAT_logo td
+{
+        vertical-align: top;
+        padding-left: 0;
+}
+
+#MAT_logo span
+{
+        color: #bf1656;
+        font-weight: bold;
+}
+
+#MAT_logo span.location
+{
+        float: right;
+}
+
+#MAT_logo span.ucsb_link a
+{
+        float: right;
+        font-weight: normal;
+        color: #5d5d5d;
+        text-decoration: none;
+}
+
+#MAT_logo span.ucsb_link a:hover
+{
+        text-decoration: underline;
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 6px 0 10px 0;
+	margin: 10px 250px;
+	color: #a0a0a0;
+	color: #6d6d6d;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #cfd0d1;
+}
+
+#logo
+{
+		float: right;
+		padding: 0 0 14px 0;
+        font-size: 160%;
+}
+
+/*
+#mainmenu
+{
+	background:white url(bg.gif) repeat-x left top;
+	border-radius: 4px;
+}
+*/
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 0;
+	margin:0px;
+	border-bottom: solid 1px #a0a0a0;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#292929;
+	background-color:transparent;
+	font-size:12px;
+	font-size: 1em;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a.logout
+{
+	color: #99549f;
+}
+
+#mainmenu ul li a.logout:hover
+{
+        color: #fff;
+	background-color: #b887c3;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #292929;
+	background-color:#d7d6d6;
+	text-decoration:none;
+}
+
+#mainmenu span
+{
+	float: right;
+	position: relative;
+	top: 5px;
+	color: #5d5d5d;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+        margin: 0 0 25px 0;
+        background-color: #ffe6ef;
+        color: #383838;
+        font-size: 1em;
+        border: 1px solid #cfd0d1;
+        border-radius: 4px;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	margin: 0 0 25px 0;
+        background-color: #e0fee6;
+        border: solid 1px #cfd0d1;
+        border-radius: 4px;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px 0 10px 10px;
+	margin: 5px 0;
+	border-bottom: 1px solid #a0a0a0;
+}
+
+div.breadcrumbs
+{
+	font-size: 1em;
+	padding: 5px 0 5px 28px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.breadcrumbs a
+{
+        text-decoration: none;
+        margin-bottom: 1px;
+        color: #7147a4;
+        border-bottom: solid 1px #4c4c4c;
+}
+
+div.breadcrumbs a:hover
+{
+        margin-bottom: 0;
+        border-bottom: solid 2px #4c4c4c;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+.portlet-content
+{
+	font-size:0.92em;
+	margin: 0 0 15px 0;
+	padding: 5px 0 5px 16px;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 8px 0;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+        margin: 0;
+        padding: 6px 4px;
+        display: block;
+        text-align: center;
+        background: #ecedee;
+        background: -moz-linear-gradient(top, #fff 0%, #ecedee 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ecedee));
+        background: -webkit-linear-gradient(top, #fff 0%,#ecedee 100%);
+        background: -o-linear-gradient(top, #fff 0%,#ecedee 100%);
+        background: -ms-linear-gradient(top, #fff 0%,#ecedee 100%);
+        background: linear-gradient(top, #fff 0%,#ecedee 100%);
+        border-radius: 4px;
+        border: 1px solid #cfd0d1 !important;
+        color: #292929 !important;
+        text-decoration: none;
+        line-height: 1;
+        /* font-size: 0.8em; */
+        /* font-weight: normal; */
+}
+
+.operations li a:hover
+{
+        color: #2b2b2b !important;
+        border-color: #bebebe;
+        background: #fff;
+        background: -moz-linear-gradient(top, #ecedee 0%, #fff 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ecedee), color-stop(100%,#fff));
+        background: -webkit-linear-gradient(top, #ecedee 0%,#fff 100%);
+        background: -o-linear-gradient(top, #ecedee 0%,#fff 100%);
+        background: -ms-linear-gradient(top, #ecedee 0%,#fff 100%);
+        background: linear-gradient(top, #ecedee 0%,#fff 100%);
+}
+
+.view_project td
+{
+	padding: 7px 0 7px 0;
+	vertical-align: top;
+}
+.view_project td.first
+{
+        width: 155px;
+	padding-right: 13px;
+        text-align: right;
+        font-weight: bold;
+}
+
+.list_projects
+{
+	margin-bottom: 0;
+}
+
+.list_projects td
+{
+	padding-left: 1em;
+	padding-right: 0;
+	vertical-align: top;
+}
+
+.list_projects td.first
+{
+	width: 125px;
+	padding-left: 0;
+	text-align: right;
+	font-weight: bold;
+}
+
+.list_projects_people td.first
+{
+	width: 110px;
+}
+
+br
+{
+	line-height: 80%;
+}
+
+.info-message
+{
+        margin-bottom: 2em;
+        padding: 0.3em 1em;
+        background-color: #fffbd0;
+        border: solid 1px #cfd0d1;
+        border-radius: 4px;
+}
+
+ul.list_style_1
+{
+	margin-bottom: 0.5em;
+	list-style-type: square;
+}
+
+ul.list_style_1 li
+{
+	padding: 0.1em 0;
+}
+
