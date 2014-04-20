@@ -5538,21 +5538,21 @@ button.close {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
+  max-width: 20%;
   height: 10px;
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  background-color: #B20047;
+  /*background-color: rgba(0.5, 0.6, 0, 0); */
+  border: 1px solid #B20047;
   border-radius: 10px;
 }
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #fff;
+  background-color: #B20047;
 }
 .carousel-caption {
   position: absolute;
@@ -5564,7 +5564,7 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  text-shadow: 0 1px 0px rgba(0, 0, 0, .6);
 }
 .carousel-caption .btn {
   text-shadow: none;
