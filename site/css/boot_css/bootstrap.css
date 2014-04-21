@@ -5538,13 +5538,13 @@ button.close {
 }
 .carousel-indicators li {
   display: inline-block;
-  max-width: 20%;
+  width: 10px;
   height: 10px;
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
   background-color: #B20047;
-  /*background-color: rgba(0.5, 0.6, 0, 0); */
+  background-color: rgba(255, 122, 0, 0);
   border: 1px solid #B20047;
   border-radius: 10px;
 }
@@ -5557,14 +5557,19 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
-  left: 15%;
+  bottom: 25px;
+  left: 20px;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: #fff;
+  background: #333333;
+    background: rgba(0, 0, 0, 0.75);
   text-align: center;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, .6);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+
+  opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 .carousel-caption .btn {
   text-shadow: none;
@@ -5586,7 +5591,7 @@ button.close {
     padding-bottom: 30px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    top: 10px;
   }
 }
 .clearfix:before,
@@ -5693,6 +5698,10 @@ button.close {
   td.visible-xs {
     display: table-cell !important;
   }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.55);
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {

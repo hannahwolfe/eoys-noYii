@@ -21,6 +21,7 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
+  overflow: hidden;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -39,14 +40,7 @@ body {
 
 /* Carousel base class */
 
-.mudit {
-  text-align: center;
 
-  color: #666666;
-  z-index: 30;
-
-
-}
 h3 {font-family: sans-serif, Verdana, Arial, Helvetica; }
 
 /* Carousel base class */
@@ -77,6 +71,7 @@ h3 {font-family: sans-serif, Verdana, Arial, Helvetica; }
   margin-left: 110px;
   padding-top: 10px;
   background-color: transparent;
+  overflow: hidden;
 
 }
 
