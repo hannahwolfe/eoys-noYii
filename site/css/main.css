@@ -20,6 +20,11 @@ body
 	padding: 0;
 }
 
+#header a:link
+{
+	text-decoration: none;
+}
+
 #MAT_logo
 {
         width: 100%;
@@ -61,6 +66,31 @@ body
     padding: 20px;
 }
 
+#socialMedia
+{
+    padding-left: 20px;
+}
+
+#content h3
+{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#content a:link, a:visited
+{
+	text-decoration: none;
+	border-bottom: solid 1px;
+	color: #bf1656;
+}
+
+#content li {list-style-type: none;}
+
+#content a:hover
+{
+	border-bottom: dotted 1px;
+}
+
 #sidebar
 {
 	padding: 20px 20px 20px 0;
@@ -96,7 +126,7 @@ body
 {
 	padding:6px 20px 5px 0;
 	margin:0px;
-	border-bottom: solid 1px #a0a0a0;
+/*	border-bottom: solid 1px #a0a0a0; */
 }
 
 #mainmenu ul li
@@ -112,7 +142,7 @@ body
 	font-size: 1em;
 	font-weight:bold;
 	text-decoration:none;
-	padding:5px 8px;
+	padding:5px 15px;
 }
 
 #mainmenu ul li a.logout
@@ -128,9 +158,12 @@ body
 
 #mainmenu ul li a:hover, #mainmenu ul li.active a
 {
+	color: #bf1656;
+	/*
 	color: #292929;
 	background-color:#d7d6d6;
 	text-decoration:none;
+	*/
 }
 
 #mainmenu span
