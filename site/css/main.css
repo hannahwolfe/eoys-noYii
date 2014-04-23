@@ -73,7 +73,14 @@ body
 
 #content h3
 {
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#content h3 .top
+{
+	margin-top: 0px;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
