@@ -45,6 +45,7 @@ body
 
 #MAT_logo span.location
 {
+		margin-top:-10px;
         float: right;
 }
 
