@@ -11,3 +11,10 @@
   font-size: 14px !important;
 }/* custom style sheet */
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.inner-item {
+    text-align: center;
+    img {
+    margin: 0 auto;}}

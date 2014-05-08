@@ -26,7 +26,7 @@ body {
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
@@ -64,13 +64,14 @@ h3 {font-family: sans-serif, Verdana, Arial, Helvetica; }
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 65%;
+  min-width: 15%;
   height: 400px;
   text-align: center;
-  margin-left: 110px;
+  
   padding-top: 10px;
   background-color: transparent;
   overflow: hidden;
+  margin: 0 auto;
 
 }
 
